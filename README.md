@@ -52,12 +52,17 @@ Termination and Winning Condition:
 How to Run the application:
 
 python red_blue_nim.py num_r num_b [player1] [d]
+
 num_r: Number of red marbles.
+
 num_b: Number of blue marbles.
+
 player1 (optional): The first player ("human" or "computer"). Defaults to "computer" if not provided.
+
 d (optional): Depth limit for the Minimax algorithm. Defaults to no limit if not provided.
 
 Example Command:
 
 python red_blue_nim.py 5 3 human 3
+
 This starts a game with 5 red marbles and 3 blue marbles, where the human goes first and the Minimax algorithm has a depth limit of 3.
